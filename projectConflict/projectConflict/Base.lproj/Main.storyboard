@@ -15,27 +15,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABs-NM-J2k">
-                                <rect key="frame" x="180" y="627" width="55" height="30"/>
-                                <state key="normal" title="Button2"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNI-iF-eyK">
+                                <rect key="frame" x="148" y="216" width="96" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="ABs-NM-J2k" secondAttribute="trailing" constant="179" id="4gH-Of-b8M"/>
-                            <constraint firstItem="ABs-NM-J2k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="583" id="Q1v-GD-gPP"/>
-                            <constraint firstAttribute="bottom" secondItem="ABs-NM-J2k" secondAttribute="bottom" constant="239" id="YPC-tH-1Mx"/>
-                            <constraint firstItem="ABs-NM-J2k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="180" id="hc0-uQ-chW"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="meButton" destination="ABs-NM-J2k" id="eK1-BC-Pdr"/>
+                        <outlet property="myButton" destination="MNI-iF-eyK" id="0FL-rq-aIq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="70"/>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
         </scene>
     </scenes>
 </document>
